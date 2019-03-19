@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DX.Utils</id>
+    <version>1.0.0.8</version>
+    <authors>Don Wibier (DevExpress)</authors>
+    <owners>Don Wibier (DevExpress)</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/donwibier/DXWeb/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/donwibier/DXWeb/tree/master/DX.Utils</projectUrl>
+    <iconUrl>https://www.devexpress.com/favicon.ico</iconUrl>
+    <description>Several C# utility classes and extension methods</description>
+    <releaseNotes>1.0.0.8: Small refactorings to improve speed and support for Pageable (XP)DataStore	
+	  1.0.0.7: Abstract Generic DTO DataStore and Validator classes added	
+      1.0.0.6: Changed .NET Framework to v4.6.1
+      1.0.0.5: Initial dual mode package for .NET Framework and .NET Standard 2.0
+Some features don't work yet on .NET Standard 2.0</releaseNotes>
+    <copyright>Copyright (c) 2017 Don Wibier</copyright>
+    <tags>DXWeb Wibier DevExpress</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\bin\Debug\net461\DX.Utils.dll" target="lib\net461\DX.Utils.dll" />
+    <file src="C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\bin\Debug\netstandard2.0\DX.Utils.dll" target="lib\netstandard2.0\DX.Utils.dll" />
+  </files>
+</package>

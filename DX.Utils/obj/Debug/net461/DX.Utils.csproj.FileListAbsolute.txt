@@ -1,0 +1,16 @@
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\bin\Debug\net461\DX.Utils.dll
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\bin\Debug\net461\DX.Utils.pdb
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.csprojAssemblyReference.cache
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.AssemblyInfoInputs.cache
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.AssemblyInfo.cs
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.dll
+C:\Users\Imran\Documents\workspace\20190319\DXWeb-master\DX.Utils\obj\Debug\net461\DX.Utils.pdb
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\bin\Debug\net461\DX.Utils.dll
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\bin\Debug\net461\DX.Utils.pdb
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.csprojAssemblyReference.cache
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.AssemblyInfoInputs.cache
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.AssemblyInfo.cs
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.dll
+C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Utils\obj\Debug\net461\DX.Utils.pdb

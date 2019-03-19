@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DX.Data.Xpo</id>
+    <version>18.1.4.5</version>
+    <authors>Don Wibier (DevExpress)</authors>
+    <owners>Don Wibier (DevExpress)</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/donwibier/DXWeb/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/donwibier/DXWeb/tree/master/DX.Utils</projectUrl>
+    <iconUrl>https://www.devexpress.com/favicon.ico</iconUrl>
+    <description>Several XPO Related Helper classes</description>
+    <releaseNotes>18.1.4.4: Refactorings to improve speed and support for Pageable (XP)DataStore
+		18.1.4.3: Abstract Generic DTO XPDataStore and XPValidator classes added
+		18.1.4.2: Better exception message on invalid connection string
+		18.1.4.1: Upgrade to DevExpress v18.1.4 and bug fixed on LockoutEndDateUtc.
+		17.2.6.2: Upgrade to DevExpress v17.2.6
+		17.2.5.2: DI Extension methods added and upgrade to DevExpress v17.2.5
+		17.2.4.2: Upgrade to DevExpress v17.2.4 and changed .NET Framework to v4.6.1
+		17.2.3.1: Initial dual mode package for .NET Framework and .NET Standard 2.0
+		Not operational on .NET Standard 2.0 yet</releaseNotes>
+    <copyright>Copyright (c) 2017 Don Wibier</copyright>
+    <tags>DXWeb Wibier DevExpress XPO ORM Microsoft Identity Advantage SQL Anywhere Sybase DB2 Interbase/Firebird MS-Access Oracle Pervasive PostgreSQL SQLite VistaDB MS-SQL MySQL</tags>
+    <repository url="https://github.com/donwibier/DXWeb" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="DX.Utils" version="1.0.0.8" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Xpo" version="18.2.7" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DX.Utils" version="1.0.0.8" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Xpo" version="18.2.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Data.Xpo\bin\Debug\net461\DX.Data.Xpo.dll" target="lib\net461\DX.Data.Xpo.dll" />
+    <file src="C:\Users\Imran\Documents\workspace\20190319\XpoIdentity\UpdatedWebApiWithXpo\DX.Data.Xpo\bin\Debug\netstandard2.0\DX.Data.Xpo.dll" target="lib\netstandard2.0\DX.Data.Xpo.dll" />
+  </files>
+</package>
